@@ -1,51 +1,13 @@
-# netmusic-app
-欢迎star issue
+# Project Introduction
+This is a music player application developed based on wechat mini-programs, imitating the mini-programs of NetEase Cloud Music, providing users with a convenient and personalized music experience platform. It integrates multiple functions such as music playback, personalized recommendation, playlist management, search, comments and sharing.
+Main functions:
+Music playback: Supports playing, pausing and switching songs, real-time display of lyrics, and adjustment of playback progress.
+Personalized recommendation: Based on the user's listening history and preferences, suitable songs, playlists and radio programs are recommended.
+Playlist management: Users can create, edit and share their own playlists, add or delete songs.
+Search function: Supports multi-type search (songs, singers, albums, etc.), saves search history, and provides intelligent prompts.
+User interaction: Users can comment on songs, playlists, MVS, etc., like and collect their favorite content.
+<!--by Lxd -->
 
-仿网易云音乐APP的微信小程序
-
-[还有Vue版本哦](https://github.com/sqaiyan/neteasemusic)
-
-需后端支持
-下载启动[node服务端](https://github.com/sqaiyan/netmusic-node)即可
-
-### 目前实现功能
-
-1. 用户
-2. 歌单
-3. FM
-4. 播放
-5. 评论
-6. MV
-7. 专辑
-8. 歌手
-9. 登录
-10. 歌曲红心,FM trash，收藏单曲至歌单
-11. 收听记录
-12. 歌单歌曲推荐
-13. 迷你播放条
-14. 电台，节目
-15. 搜索
-
-### TODO
-
-* 增加评论，评论点赞等 
-* 歌词翻译
-* 收藏(歌单，歌手，专辑，电台
-* 音质切换
-* 用户动态，粉丝
-* 新歌 新专 分类电台
- 
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4271.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4279.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4274.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4272.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4276.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4277.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4275.PNG"/>
-<image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4273.PNG"/>
-
-### 如果本示例对您学习小程序有帮助欢迎大佬赏杯奶茶喝
-<image width="220" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/wx.jpg"/><image width="220" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/zfb.jpg"/>
 
 
 
