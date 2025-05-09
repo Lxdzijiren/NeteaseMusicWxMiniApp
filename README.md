@@ -9,5 +9,32 @@ User interaction: Users can comment on songs, playlists, MVS, etc., like and col
 <!--by Lxd -->
 
 
+<!-- by MengYiXin -->
+# Install project
+
+1. Clone project
+
+a. Main project
+```bash
+git clone https://github.com/TMyxGames/NeteaseMusicWxMiniApp.git
+```
+
+b. Backend project
+```bash
+git clone https://github.com/TMyxGames/netmusic-node.git
+```
+
+2. install node
+
+3. Run backend project
+
+a. Open the terminal and switch the working path to the backend project folder
+
+b. Input
+```bash
+npm i
+node app.js
+```
+4. Open main project and run
 
 
