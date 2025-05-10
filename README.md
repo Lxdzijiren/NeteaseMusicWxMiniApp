@@ -53,12 +53,14 @@ NeteaseMusicWxMiniApp
 ### home
 
 ![页面截图](screenshot/home.png)
+
 应用主页面，主要功能为首页推荐，歌单列表，电台，播放控制
 
 
 ### login
 
 ![页面截图](screenshot/login.png)
+
 应用的登录逻辑,实现了简单的用户登录功能
 * onLoad:初始化传入的数据
 * textinput:监听用户输入
@@ -69,6 +71,7 @@ NeteaseMusicWxMiniApp
 ### me
 
 ![页面截图](screenshot/me.png)
+
 用户播放列表管理功能，包括获取用户的订阅统计和播放列表数据
 
 
@@ -77,6 +80,7 @@ NeteaseMusicWxMiniApp
 ### mv
 
 ![页面截图](screenshot/mv.png)
+
 应用的MV模块，实现视频详情页面，包括获取视频信息、切换标签页显示不同内容以及加载更多评论的功能
 * tab 处理标签页切换加载
 * common.loadrec 调用该方法获取更多评论数据
@@ -85,6 +89,7 @@ NeteaseMusicWxMiniApp
 ### new
 
 ![页面截图](screenshot/new.jpg)
+
 实现音乐排行榜页面，包括获取不同国家的歌曲和专辑排行榜数据、切换标签页显示不同内容以及加载更多内容的功能
 * 在data中定义了变量来存储不同国家的歌曲和专辑排行榜
 * tabtype用于处理标签页切换操作并加载相应国家的排行榜数据
