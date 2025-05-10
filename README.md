@@ -9,7 +9,7 @@
 下载启动[node服务端](https://github.com/sqaiyan/netmusic-node)即可
 
 
-### 📦 项目结构 --by ZhaoYu --
+### 项目结构 <!-- by ZhaoYu -->
 
 ```
 NeteaseMusicWxMiniApp
