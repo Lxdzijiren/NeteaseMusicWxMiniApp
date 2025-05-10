@@ -57,14 +57,14 @@ In ```Details > Local Settings```, choose ```Do not verify legal domain, web-vie
 
 The core functionality of the music player, including obtaining music information, playback control, sharing, and page navigation.
 
-● index.js  
-    ○ Defines the data structure and methods, implementing the functionality of the music playback page.
+- index.js
+    - Defines the data structure and methods, implementing the functionality of the music playback page.
 
-● index.wxml  
-    ○ Implements the appearance of the music playback page.
+- index.wxml
+    - Implements the appearance of the music playback page.
 
-● index.wxss  
-    ○ Defines the component styles of the music playback interface.
+- index.wxss
+    - Defines the component styles of the music playback interface.
 
 ### artist
 
@@ -72,26 +72,26 @@ The core functionality of the music player, including obtaining music informatio
 
 The artist details page functionality, including artist information, works, albums, and music videos (MVs).
 
-● index.js  
-    ○ Defines the data structure and methods, implementing the functionality of the artist details page.
+- index.js
+    - Defines the data structure and methods, implementing the functionality of the artist details page.
 
-● index.wxml  
-    ○ Implements the appearance of the artist details page.
+- index.wxml
+    - Implements the appearance of the artist details page.
 
-● index.wxss  
-    ○ Defines the component styles of the artist details page.
+- index.wxss
+    - Defines the component styles of the artist details page.
 
 ### cloud
 The cloud disk functionality, used to display the list of music stored in the user's cloud disk.
 
-● index.js  
-    ○ Defines the data structure and methods, implementing the cloud disk functionality.
+- index.js
+    - Defines the data structure and methods, implementing the cloud disk functionality.
 
-● index.wxml  
-    ○ Implements the appearance of the cloud disk page.
+- index.wxml
+    - Implements the appearance of the cloud disk page.
 
-● index.wxss  
-    ○ Defines the component styles of the cloud disk page.
+- index.wxss
+    - Defines the component styles of the cloud disk page.
 
 ### djradio
 
@@ -99,14 +99,14 @@ The cloud disk functionality, used to display the list of music stored in the us
 
 The radio station details page functionality, including radio station information, program list, and playback control.
 
-● index.js  
-    ○ Defines the data structure and methods, implementing the operational logic of the radio station details page.
+- index.js
+    - Defines the data structure and methods, implementing the operational logic of the radio station details page.
 
-● index.wxml  
-    ○ Implements the appearance of the radio station details page.
+- index.wxml
+    - Implements the appearance of the radio station details page.
 
-● index.wxss  
-    ○ Defines the component styles of the radio station details page.
+- index.wxss
+    - Defines the component styles of the radio station details page.
 
 ### fm
 
@@ -114,13 +114,13 @@ The radio station details page functionality, including radio station informatio
 
 The private FM functionality, supporting song recommendations based on user preferences and playback control.
 
-● index.js  
-    ○ Defines the data structure and methods, implementing the operational logic of the private FM playback page.
+- index.js
+    - Defines the data structure and methods, implementing the operational logic of the private FM playback page.
 
-● index.wxml  
-    ○ Implements the appearance of the private FM playback page.
+- index.wxml
+    - Implements the appearance of the private FM playback page.
 
-● index.wxss  
-    ○ Defines the component styles of the private FM playback page.
+- index.wxss
+    - Defines the component styles of the private FM playback page.
 
 
