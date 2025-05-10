@@ -1,6 +1,7 @@
 # Project Introduction
 This is a music player application developed as a WeChat mini-program, inspired by NetEase Cloud Music, offering users a convenient and personalized music experience. It integrates various features, including music playback, personalized recommendations, playlist management, search, comments, and sharing.
 
+## Project Characteristics
 Main Functions:
 
 Music playback: Supports playing, pausing, and switching songs, displays lyrics in real-time, and allows users to adjust playback progress.
