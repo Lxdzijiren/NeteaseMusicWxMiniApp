@@ -17,6 +17,36 @@ User interaction: Users can comment on songs, playlists, and music videos, as we
 Radio and Music Videos: We provide a wide selection of radio programs and high-definition music videos, supporting online playback and user comments.
 <!--by 梁旭东 -->
 
+## Project main function description and screenshots
+Music playing interface
+
+Play music: Use the playmusic function to request music details and play them.
+
+! [Screenshot of the project page](picture/ music interface.png)
+
+The main function of the playing file: index.js is to implement a music player page.
+
+Play mode switch: Use playshuffle function to switch play mode (sequential play, single loop, random play).
+
+! [Screenshot of the project page](picture/ random.png)
+
+Playlist management: Users can add the currently playing songs to their playlist.
+
+record file: index.js is the main function of implementing a music playing record page.
+
+playlist file: index.js is a playlist detail page.
+
+! [Screenshot of the project page](picture/ history.png)
+
+! [Screenshot of project page](picture/ list-png)
+
+Comment loading: Load the song comments via the common.loadrec function.
+
+recommend file: index.js is a review page.
+
+! [Screenshot of project page](picture/ comment.png)
+
+
 
 
 
