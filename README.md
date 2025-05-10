@@ -1,5 +1,6 @@
 # netmusic-app
 欢迎star issue
+[English](README.zh.md)
 
 仿网易云音乐APP的微信小程序
 
