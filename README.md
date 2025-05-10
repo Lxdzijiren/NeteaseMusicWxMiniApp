@@ -8,6 +8,46 @@
 需后端支持
 下载启动[node服务端](https://github.com/sqaiyan/netmusic-node)即可
 
+
+### 📦 项目结构 --by ZhaoYu --
+
+```
+NeteaseMusicWxMiniApp
+├── image/               # 静态资源
+├── page/
+│   ├── component/       # 页面组件
+│       ├── album/
+│       ├── artist/
+│       ├── cloud/
+│       ├── djradio/
+│       ├── fm/
+│       ├── home/
+│       ├── login/
+│       ├── me/
+│       ├── mv/
+│       ├── new/
+│       ├── playing/
+│       ├── playlist/
+│       ├── program/
+│       ├── recommend/
+│       ├── record/
+│       ├── recsongs/
+│       ├── search/
+│       ├── simi/
+│       ├── toplist/
+│       ├── user/
+├── screenshot/          # 截图
+├── utils/               # 函数模块
+├── app.js               
+├── app.json             
+├── app.wxss             
+├── LICENSE
+├── project.config.json
+├── project.private.config.json
+├── README.md
+```
+
+
 ### 目前实现功能
 
 1. 用户
