@@ -42,8 +42,6 @@ NeteaseMusicWxMiniApp
 ├── app.json             
 ├── app.wxss             
 ├── LICENSE
-├── project.config.json
-├── project.private.config.json
 ├── README.md
 ```
 
