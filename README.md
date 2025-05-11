@@ -40,7 +40,7 @@ NeteaseMusicWxMiniApp
 │       ├── user/
 ├── screenshot/          # 截图
 ├── utils/               # 函数模块
-├── app.js               
+├── app.js               # 主入口
 ├── app.json             
 ├── app.wxss             
 ├── LICENSE
