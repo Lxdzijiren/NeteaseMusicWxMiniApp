@@ -49,6 +49,50 @@ NeteaseMusicWxMiniApp
 ```
 
 
+### home
+![页面截图](screenshot/home.png)
+
+Application main page, primarily featuring home recommendations, song lists, radio stations, and playback controls.
+
+### login
+![页面截图](screenshot/login.png)
+
+Logic for user login within the application, implementing a basic user authentication feature.
+
+onLoad: Initializes data passed to it.
+
+textinput: Monitors user input.
+
+wx.request: Verifies user credentials during login.
+
+### me
+
+![页面截图](screenshot/me.png)
+Functionality for managing user playlists, including retrieving subscription statistics and playlist data.
+
+### mv
+
+![页面截图](screenshot/mv.png)
+MV module of the application, responsible for displaying video detail pages, including fetching video information, switching tabbed content, and loading additional comments.
+
+tab
+
+Handles switching between tabs by loading content.
+
+common.loadrec: Calls this method to fetch more comment data.
+
+### new
+
+![页面截图](screenshot/new.jpg)
+Implementation of a music ranking page, featuring fetching song and album rankings from different countries, switching tabbed content, and loading more data.
+
+Variables are defined in the data to store song and album rankings from various countries.
+
+tabtype is used to handle tab切换 operations and load rankings for corresponding countries.
+
+getsongs and getalbums functions fetch ranking data for songs and albums respectively, categorized by country and region.
+
+
 ### Features Currently Implemented
 
 1. User Management
