@@ -119,10 +119,6 @@ NeteaseMusicWxMiniApp
 
 
 
-
-
-
-
 ### TODO
 
 * 增加评论，评论点赞等 
@@ -143,6 +139,7 @@ NeteaseMusicWxMiniApp
 
 ### 如果本示例对您学习小程序有帮助欢迎大佬赏杯奶茶喝
 <image width="220" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/wx.jpg"/><image width="220" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/zfb.jpg"/>
+
 
 
 

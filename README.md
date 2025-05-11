@@ -129,5 +129,3 @@ getsongs and getalbums functions fetch ranking data for songs and albums respect
 <image width="340" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/IMG_4273.PNG"/>
 
 ### If this example helps you learn WeChat Mini Programs, please buy me a cup of milk tea if possible
-
-<image width="220" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/wx.jpg"/><image width="220" src="https://github.com/sqaiyan/NeteaseMusicWxMiniApp/raw/master/screenshot/zfb.jpg"/>
