@@ -1,7 +1,7 @@
 # netmusic-app
 Welcome to star and issue
 
-[中文](README.md)
+[中文](README.zh.md)
 
 A WeChat Mini Program imitating NetEase Cloud Music APP
 
