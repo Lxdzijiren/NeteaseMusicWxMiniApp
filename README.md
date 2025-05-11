@@ -22,7 +22,7 @@ Music playing interface
 
 Play music: Use the playmusic function to request music details and play them.
 
-! [Screenshot of the project page](picture/音乐界面.png)
+![Screenshot of the project page](picture/音乐界面.png)
 
 The main function of the playing file: index.js is to implement a music player page.
 
@@ -36,15 +36,15 @@ record file: index.js is the main function of implementing a music playing recor
 
 playlist file: index.js is a playlist detail page.
 
-! [Screenshot of the project page](picture/历史.png)
+![Screenshot of the project page](picture/历史.png)
 
-! [Screenshot of project page](picture/列表.png)
+![Screenshot of project page](picture/列表.png)
 
 Comment loading: Load the song comments via the common.loadrec function.
 
 recommend file: index.js is a review page.
 
-! [Screenshot of project page](picture/评论.png)
+![Screenshot of project page](picture/评论.png)
 
 <!-- by 梁旭东-->
 
