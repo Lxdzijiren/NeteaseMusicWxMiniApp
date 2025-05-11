@@ -61,6 +61,7 @@ Application main page, primarily featuring home recommendations, song lists, rad
 
 
 Logic for user login within the application, implementing a basic user authentication feature.
+
 1· onLoad: Initializes data passed to it.
 2· textinput: Monitors user input.
 3· wx.request: Verifies user credentials during login.
