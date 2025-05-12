@@ -1,13 +1,22 @@
+<!--by 梁旭东 -->
 # Project Introduction
-This is a music player application developed based on wechat mini-programs, imitating the mini-programs of NetEase Cloud Music, providing users with a convenient and personalized music experience platform. It integrates multiple functions such as music playback, personalized recommendation, playlist management, search, comments and sharing.
-Main functions:
-Music playback: Supports playing, pausing and switching songs, real-time display of lyrics, and adjustment of playback progress.
-Personalized recommendation: Based on the user's listening history and preferences, suitable songs, playlists and radio programs are recommended.
-Playlist management: Users can create, edit and share their own playlists, add or delete songs.
-Search function: Supports multi-type search (songs, singers, albums, etc.), saves search history, and provides intelligent prompts.
-User interaction: Users can comment on songs, playlists, MVS, etc., like and collect their favorite content.
-<!--by Lxd -->
+This is a music player application developed as a WeChat mini-program, inspired by NetEase Cloud Music, offering users a convenient and personalized music experience. It integrates various features, including music playback, personalized recommendations, playlist management, search, comments, and sharing.
 
+<!--by 梁旭东 -->
+## Project Characteristics
+Main Functions:
+
+Music playback: Supports playing, pausing, and switching songs, displays lyrics in real-time, and allows users to adjust playback progress.
+
+Personalized recommendations: Suggests suitable songs, playlists, and radio programs based on the user's listening history and preferences.
+
+Playlist management: Users can create, edit, and share their own playlists, as well as add or remove songs.
+
+Search function: Supports various types of searches (songs, artists, albums, etc.), saves search history, and offers intelligent suggestions.
+
+User interaction: Users can comment on songs, playlists, and music videos, as well as like and save their favorite content.
+
+Radio and Music Videos: We provide a wide selection of radio programs and high-definition music videos, supporting online playback and user comments.
 
 <!-- by Meng YiXin -->
 # Project Installation
@@ -48,10 +57,39 @@ In ```Details > Local Settings```, choose ```Do not verify legal domain, web-vie
 
 ### (5) Compile the Project
 
-# Main Features and Screenshots of the Project
+# Project main function description and screenshots
+
+<!--by 梁旭东 -->
+Music playing interface
+
+Play music: Use the playmusic function to request music details and play them.
+
+![Screenshot of the project page](picture/音乐界面.png)
+
+The main function of the playing file: index.js is to implement a music player page.
+
+Play mode switch: Use playshuffle function to switch play mode (sequential play, single loop, random play).
+
+![Screenshot of the project page](picture/随机.png)
+
+Playlist management: Users can add the currently playing songs to their playlist.
+
+record file: index.js is the main function of implementing a music playing record page.
+
+playlist file: index.js is a playlist detail page.
+
+![Screenshot of the project page](picture/历史.png)
+
+![Screenshot of project page](picture/列表.png)
+
+Comment loading: Load the song comments via the common.loadrec function.
+
+recommend file: index.js is a review page.
+
+![Screenshot of project page](picture/评论.png)
 
 <!-- by Meng Yixin -->
-### album
+### music player
 
 ![picture](picture/QQ20250510-034959.jpg)
 
@@ -59,6 +97,7 @@ The core functionality of the music player, including obtaining music informatio
 
 - index.js
     - Defines the data structure and methods, implementing the functionality of the music playback page.
+    - Use the common.toggleplay method to control the playback and pause of music.
 
 - index.wxml
     - Implements the appearance of the music playback page.
@@ -122,5 +161,6 @@ The private FM functionality, supporting song recommendations based on user pref
 
 - index.wxss
     - Defines the component styles of the private FM playback page.
+
 
 
