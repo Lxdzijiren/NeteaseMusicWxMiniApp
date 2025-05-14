@@ -56,42 +56,31 @@ node app.js
 
 ### (5) 编译项目
 
-<!-- by 赵宇 -->
+<!-- by 梁旭东 -->
 # 项目结构
 
-```
-NeteaseMusicWxMiniApp
-├── image/               # 静态资源
-├── page/
-│   ├── component/       # 页面组件
-│       ├── album/
-│       ├── artist/
-│       ├── cloud/
-│       ├── djradio/
-│       ├── fm/
-│       ├── home/
-│       ├── login/
-│       ├── me/
-│       ├── mv/
-│       ├── new/
-│       ├── playing/
-│       ├── playlist/
-│       ├── program/
-│       ├── recommend/
-│       ├── record/
-│       ├── recsongs/
-│       ├── search/
-│       ├── simi/
-│       ├── toplist/
-│       ├── user/
-├── screenshot/          # 截图
-├── utils/               # 函数模块
-├── app.js               # 主入口
-├── app.json             
-├── app.wxss             
+NETEASEMUSICWXMINI/
+│
+├── ai_usage_screenshots/   AI使用截图
+│
+├── image/   软件图片
+│
+├── page/   主要代码
+│
+├── picture/  项目主要介绍使用截图
+│
+├── screenshot/  音乐图片
+│
+├── utils/
+│
+├── app.js
+├── app.json
+├── app.wxss
 ├── LICENSE
-├── README.md
-```
+├── modification_log.md   AI使用记录
+├── README.md   英文版本
+├── README.zh.md  中文版
+└── terms.md  术语表
 
 # 项目主要功能说明和截图
 
@@ -131,15 +120,15 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 音乐播放器的核心功能，包括获取音乐信息、播放控制、分享和页面跳转
 
-- index.js  
-    - 定义了数据结构和方法，实现了音乐播放页面的功能
-    - 调用了common.toggleplay方法控制音乐的播放和暂停
+index.js  
+    定义了数据结构和方法，实现了音乐播放页面的功能
+    调用了common.toggleplay方法控制音乐的播放和暂停
 
-- index.wxml  
-    - 实现了音乐播放页面的外观
+index.wxml  
+    实现了音乐播放页面的外观
 
-- index.wxss  
-    - 定义了音乐播放界面的组件样式
+index.wxss  
+    定义了音乐播放界面的组件样式
 
 ### 歌手详情页
 
@@ -147,27 +136,27 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 歌手详情页面功能，包括歌手信息、歌手作品、专辑以及MV
 
-- index.js  
-    - 定义了数据结构和方法，实现了歌手详情页面的功能
+index.js  
+    定义了数据结构和方法，实现了歌手详情页面的功能
 
-- index.wxml  
-    - 实现了歌手详情页面的外观
+index.wxml  
+    实现了歌手详情页面的外观
 
-- index.wxss  
-    - 定义了歌手详情页面的组件样式
+index.wxss  
+    定义了歌手详情页面的组件样式
 
 ### 云盘
 
 云盘功能，用于展示用户在云盘中储存的音乐列表
 
-- index.js  
-    - 定义了数据结构和方法，实现了云盘的功能
+index.js  
+    定义了数据结构和方法，实现了云盘的功能
 
-- index.wxml  
-    - 实现了云盘页面的外观
+index.wxml  
+    实现了云盘页面的外观
 
-- index.wxss  
-    - 定义了云盘页面的组件样式
+index.wxss  
+    定义了云盘页面的组件样式
 
 ### 电台
 
@@ -175,14 +164,14 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 电台详情页面功能，包括电台信息、电台节目列表以及播放控制
 
-- index.js  
-    - 定义了数据结构和方法，实现了电台详情页面功能的操作逻辑
+index.js  
+    定义了数据结构和方法，实现了电台详情页面功能的操作逻辑
 
-- index.wxml  
-    - 实现了电台详情页面的外观
+index.wxml  
+    实现了电台详情页面的外观
 
-- index.wxss  
-    - 定义了电台详情页面的组件样式
+index.wxss  
+    定义了电台详情页面的组件样式
 
 ### 私人fm
 
@@ -190,14 +179,14 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 私人FM功能，支持根据用户喜好推荐歌曲以及播放控制
 
-- index.js  
-    - 定义了数据结构和方法，实现了私人FM播放页面功能的操作逻辑
+index.js  
+    定义了数据结构和方法，实现了私人FM播放页面功能的操作逻辑
 
-- index.wxml  
-    - 实现了私人FM播放页面的外观
+index.wxml  
+    实现了私人FM播放页面的外观
 
-- index.wxss  
-    - 定义了私人FM播放页面的组件样式
+index.wxss  
+    定义了私人FM播放页面的组件样式
 
 <!-- by 刘斐 -->
 ## arecsongs的主要功能与截图
@@ -206,14 +195,14 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 实现了每日推荐歌曲列表，音乐播放的控制，播放列表管理
 
-- index.js  
-    - 定义了页面数据结构和事件处理函数，实现了歌曲推荐列表音乐播放控制
+index.js  
+    定义了页面数据结构和事件处理函数，实现了歌曲推荐列表音乐播放控制
 
-- index.wxml  
-    - 实现了音乐推荐页面的视图层
+index.wxml  
+    实现了音乐推荐页面的视图层
 
-- index.wxss  
-    - 定义了布局结构和视觉样式
+index.wxss  
+    定义了布局结构和视觉样式
 
 # search的主要功能
 
@@ -221,14 +210,14 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 主要为搜索功能，分为多类型搜索，搜罗历史，音乐播放集成和分页加载
 
-- index.js  
-    - 数据定义和搜索逻辑，实现了歌曲的搜索功能
+index.js  
+    数据定义和搜索逻辑，实现了歌曲的搜索功能
 
-- index.wxml  
-    - 实现了搜索界面的渲染
+index.wxml  
+    实现了搜索界面的渲染
 
-- index.wxss  
-    - 定义了搜索页面的结构和样式
+index.wxss  
+    定义了搜索页面的结构和样式
 
 # simi的主要功能
 
@@ -236,14 +225,14 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 实现了相似内容的推荐功能和相关联推荐场景
 
-- index.js  
-    - 模块的引入，页面数据定义，页面加载逻辑实现了推荐功能
+index.js  
+    模块的引入，页面数据定义，页面加载逻辑实现了推荐功能
 
-- index.wxml  
-    - 实现了相关功能的区域部分渲染
+index.wxml  
+    实现了相关功能的区域部分渲染
 
-- index.wxss  
-    - 定义了相关推荐的结构和样式
+index.wxss  
+    定义了相关推荐的结构和样式
 
 # toplist主要功能
 
@@ -251,24 +240,24 @@ recommend文件：index.js主要功能是实现一个评论页面。
 
 实现了展示音乐排行榜页面，主要分为云音乐官方榜和全球榜两个部分。
 
-- index.wxml  
-    - 实现了相关功能的区域部分渲染
+index.wxml  
+    实现了相关功能的区域部分渲染
 
-- index.wxss  
-    - 定义了云音乐的组件样式
+index.wxss  
+    定义了云音乐的组件样式
 
 # user主要功能
 
 这个界面实现了用户歌单页面的逻辑层面，主要功能是展示用户的个人歌单和收藏歌单。
 
-- index.js  
-    - 核心功能用户信息获取，歌单列表加载，导航栏标题
+index.js  
+    核心功能用户信息获取，歌单列表加载，导航栏标题
 
-- index.wxml  
-    - 实现了个人主页页面，展示用户信息、社交数据和歌单列表。
+index.wxml  
+    实现了个人主页页面，展示用户信息、社交数据和歌单列表。
 
-- index.wxss  
-    - 定义用户个人主页的视觉样式。
+index.wxss  
+    定义用户个人主页的视觉样式。
 
 <!-- by 赵宇 -->
 ### home
