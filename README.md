@@ -57,42 +57,30 @@ In ```Details > Local Settings```, choose ```Do not verify legal domain, web-vie
 
 ### (5) Compile the Project
 
-<!-- by ZhaoYu -->
+<!-- by 梁旭东 -->
 # Project Structure 
-
-```
-NeteaseMusicWxMiniApp
-├── image/               # Static resources
-├── page/
-│   ├── component/       # Page components
-│       ├── album/
-│       ├── artist/
-│       ├── cloud/
-│       ├── djradio/
-│       ├── fm/
-│       ├── home/
-│       ├── login/
-│       ├── me/
-│       ├── mv/
-│       ├── new/
-│       ├── playing/
-│       ├── playlist/
-│       ├── program/
-│       ├── recommend/
-│       ├── record/
-│       ├── recsongs/
-│       ├── search/
-│       ├── simi/
-│       ├── toplist/
-│       ├── user/
-├── screenshot/          
-├── utils/               # Function modules
-├── app.js               
-├── app.json             
-├── app.wxss             
+NETEASEMUSICWXMINI/
+│
+├── ai_usage_screenshots/   AI使用截图
+│
+├── image/   软件图片
+│
+├── page/   主要代码
+│
+├── picture/  项目主要介绍使用截图
+│
+├── screenshot/  音乐图片
+│
+├── utils/
+│
+├── app.js
+├── app.json
+├── app.wxss
 ├── LICENSE
-├── README.md
-```
+├── modification_log.md   AI使用记录
+├── README.md   英文版本
+├── README.zh.md  中文版
+└── terms.md  术语表
 
 # Project main function description and screenshots
 
@@ -132,15 +120,15 @@ recommend file: index.js is a review page.
 
 The core functionality of the music player, including obtaining music information, playback control, sharing, and page navigation.
 
-- index.js
-    - Defines the data structure and methods, implementing the functionality of the music playback page.
-    - Use the common.toggleplay method to control the playback and pause of music.
+index.js
+    Defines the data structure and methods, implementing the functionality of the music playback page.
+    Use the common.toggleplay method to control the playback and pause of music.
 
-- index.wxml
-    - Implements the appearance of the music playback page.
+index.wxml
+    Implements the appearance of the music playback page.
 
-- index.wxss
-    - Defines the component styles of the music playback interface.
+index.wxss
+    Defines the component styles of the music playback interface.
 
 ### artist
 
@@ -148,26 +136,26 @@ The core functionality of the music player, including obtaining music informatio
 
 The artist details page functionality, including artist information, works, albums, and music videos (MVs).
 
-- index.js
-    - Defines the data structure and methods, implementing the functionality of the artist details page.
+index.js
+    Defines the data structure and methods, implementing the functionality of the artist details page.
 
-- index.wxml
-    - Implements the appearance of the artist details page.
+index.wxml
+    Implements the appearance of the artist details page.
 
-- index.wxss
-    - Defines the component styles of the artist details page.
+index.wxss
+    Defines the component styles of the artist details page.
 
 ### cloud
 The cloud disk functionality, used to display the list of music stored in the user's cloud disk.
 
-- index.js
-    - Defines the data structure and methods, implementing the cloud disk functionality.
+index.js
+    Defines the data structure and methods, implementing the cloud disk functionality.
 
-- index.wxml
-    - Implements the appearance of the cloud disk page.
+index.wxml
+    Implements the appearance of the cloud disk page.
 
-- index.wxss
-    - Defines the component styles of the cloud disk page.
+index.wxss
+    Defines the component styles of the cloud disk page.
 
 ### djradio
 
@@ -175,14 +163,14 @@ The cloud disk functionality, used to display the list of music stored in the us
 
 The radio station details page functionality, including radio station information, program list, and playback control.
 
-- index.js
-    - Defines the data structure and methods, implementing the operational logic of the radio station details page.
+index.js
+    Defines the data structure and methods, implementing the operational logic of the radio station details page.
 
-- index.wxml
-    - Implements the appearance of the radio station details page.
+index.wxml
+    Implements the appearance of the radio station details page.
 
-- index.wxss
-    - Defines the component styles of the radio station details page.
+index.wxss
+    Defines the component styles of the radio station details page.
 
 ### fm
 
@@ -190,28 +178,28 @@ The radio station details page functionality, including radio station informatio
 
 The private FM functionality, supporting song recommendations based on user preferences and playback control.
 
-- index.js
-    - Defines the data structure and methods, implementing the operational logic of the private FM playback page.
+index.js
+    Defines the data structure and methods, implementing the operational logic of the private FM playback page.
 
-- index.wxml
-    - Implements the appearance of the private FM playback page.
+index.wxml
+    Implements the appearance of the private FM playback page.
 
-- index.wxss
-    - Defines the component styles of the private FM playback page.
+index.wxss
+    Defines the component styles of the private FM playback page.
 
 <!-- by Liu Fei -->
 ![页面截图](picture/qq_images_01.png)
 
 Implemented daily recommended song list, control of music playback, and playlist management
 
-- index.js  
-    - Defined page data structure and event handling functions, implemented music recommendation list and music playback control
+index.js  
+    Defined page data structure and event handling functions, implemented music recommendation list and music playback control
 
-- index.wxml  
-    - Implemented the view of music recommendation page
+index.wxml  
+    Implemented the view of music recommendation page
 
-- index.wxss  
-    - Defined layout structure and visual style
+index.wxss  
+    Defined layout structure and visual style
 
 ##  search major function 
 
@@ -219,14 +207,14 @@ Implemented daily recommended song list, control of music playback, and playlist
 
 Mainly for search function, divided into multiple types of search, search history, music playback integration, and pagination loading
 
-- index.js  
-    - Data definition and search logic have enabled the search function for songs
+index.js  
+    Data definition and search logic have enabled the search function for songs
 
-- index.wxml  
-    - Implemented rendering of the search interface
+index.wxml  
+    Implemented rendering of the search interface
 
-- index.wxss  
-    - Defined the structure and style of the search page
+index.wxss  
+    Defined the structure and style of the search page
 
 
 # simi major function
@@ -235,14 +223,14 @@ Mainly for search function, divided into multiple types of search, search histor
 
 Implemented recommendation functions for similar content and related recommendation scenarios
 
-- index.js  
-    - The introduction of modules, definition of page data, and implementation of page loading logic have enabled recommendation functionality
+index.js  
+    The introduction of modules, definition of page data, and implementation of page loading logic have enabled recommendation functionality
 
-- index.wxml  
-    - Partial rendering of regions that have implemented relevant functions
+index.wxml  
+    Partial rendering of regions that have implemented relevant functions
 
-- index.wxss  
-    - Defined the structure and style of relevant recommendations
+index.wxss  
+    Defined the structure and style of relevant recommendations
 
 # toplist major function
 
@@ -250,25 +238,25 @@ Implemented recommendation functions for similar content and related recommendat
 
 We have implemented a music ranking page, which is mainly divided into two parts: the official cloud music chart and the global chart.
 
-- index.wxml  
-    - Partial rendering of regions that have implemented relevant functions
+index.wxml  
+    Partial rendering of regions that have implemented relevant functions
 
-- index.wxss  
-    - Defined component styles for cloud music
+index.wxss  
+    Defined component styles for cloud music
 
 
 # user major function
 
 This interface implements the logical level of the user's playlist page, with the main function of displaying the user's personal playlist and favorite playlists.
 
-- index.js  
-    - Core functions: user information acquisition, playlist loading, navigation bar title
+index.js  
+    Core functions: user information acquisition, playlist loading, navigation bar title
 
-- index.wxml  
-    - Implemented a personal homepage page that displays user information, social data, and playlists.
+index.wxml  
+    Implemented a personal homepage page that displays user information, social data, and playlists.
 
-- index.wxss  
-    - Define the visual style of the user's personal homepage.
+index.wxss  
+    Define the visual style of the user's personal homepage.
 
 <!-- by ZhaoYu -->
 ### home
