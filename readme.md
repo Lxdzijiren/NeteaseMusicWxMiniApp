@@ -1,74 +1,75 @@
-<!-- by 刘斐 -->
+<!-- by Liu Fei -->
 
-## arecsongs的主要功能与截图
+## Main functions and screenshots
 
-![页面截图](qq_images1/qq_images_01.png)
+![页面截图](picture/qq_images_01.png)
 
-实现了每日推荐歌曲列表，音乐播放的控制，播放列表管理
-
-- index.js  
-    - 定义了页面数据结构和事件处理函数，实现了歌曲推荐列表音乐播放控制
-
-- index.wxml  
-    - 实现了音乐推荐页面的视图层
-
-- index.wxss  
-    - 定义了布局结构和视觉样式
-
-
-# search的主要功能
-
-![页面截图](qq_images1/qq_images_02.png)
-
-主要为搜索功能，分为多类型搜索，搜罗历史，音乐播放集成和分页加载
+Implemented daily recommended song list, control of music playback, and playlist management
 
 - index.js  
-    - 数据定义和搜索逻辑，实现了歌曲的搜索功能
+    - Defined page data structure and event handling functions, implemented music recommendation list and music playback control
 
 - index.wxml  
-    - 实现了搜索界面的渲染
+    - Implemented the view of music recommendation page
 
 - index.wxss  
-    - 定义了搜索页面的结构和样式
+    - Defined layout structure and visual style
 
-# simi的主要功能
 
-![页面截图](qq_images2/qq_images2_01.png)
+##  search major function 
 
-实现了相似内容的推荐功能和相关联推荐场景
+![页面截图](picture/qq_images_02.png)
+
+Mainly for search function, divided into multiple types of search, search history, music playback integration, and pagination loading
 
 - index.js  
-    - 模块的引入，页面数据定义，页面加载逻辑实现了推荐功能
+    - Data definition and search logic have enabled the search function for songs
 
 - index.wxml  
-    - 实现了相关功能的区域部分渲染
+    - Implemented rendering of the search interface
 
 - index.wxss  
-    - 定义了相关推荐的结构和样式
-
-# toplist主要功能
-
-![页面截图](qq_images2/qq_images2_02.png)
-
-实现了展示音乐排行榜页面，主要分为云音乐官方榜和全球榜两个部分。
-
-- index.wxml  
-    - 实现了相关功能的区域部分渲染
-
-- index.wxss  
-    - 定义了云音乐的组件样式
+    - Defined the structure and style of the search page
 
 
-# user主要功能
+# simi major function
 
+![页面截图](picture/qq_images2_01.png)
 
-这个界面实现了用户歌单页面的逻辑层面，主要功能是展示用户的个人歌单和收藏歌单。
+Implemented recommendation functions for similar content and related recommendation scenarios
 
 - index.js  
-    - 核心功能用户信息获取，歌单列表加载，导航栏标题
+    - The introduction of modules, definition of page data, and implementation of page loading logic have enabled recommendation functionality
 
 - index.wxml  
-    - 实现了个人主页页面，展示用户信息、社交数据和歌单列表。
+    - Partial rendering of regions that have implemented relevant functions
 
 - index.wxss  
-    - 定义用户个人主页的视觉样式。
+    - Defined the structure and style of relevant recommendations
+
+# toplist major function
+
+![页面截图](picture/qq_images2_02.png)
+
+We have implemented a music ranking page, which is mainly divided into two parts: the official cloud music chart and the global chart.
+
+- index.wxml  
+    - Partial rendering of regions that have implemented relevant functions
+
+- index.wxss  
+    - Defined component styles for cloud music
+
+
+# user major function
+
+
+This interface implements the logical level of the user's playlist page, with the main function of displaying the user's personal playlist and favorite playlists.
+
+- index.js  
+    - Core functions: user information acquisition, playlist loading, navigation bar title
+
+- index.wxml  
+    - Implemented a personal homepage page that displays user information, social data, and playlists.
+
+- index.wxss  
+    - Define the visual style of the user's personal homepage.
