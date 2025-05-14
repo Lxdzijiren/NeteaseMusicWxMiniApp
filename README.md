@@ -313,5 +313,3 @@ Variables are defined in the data to store song and album rankings from various 
 tabtype is used to handle tab切换 operations and load rankings for corresponding countries.
 
 getsongs and getalbums functions fetch ranking data for songs and albums respectively, categorized by country and region.
-
-
